@@ -41,7 +41,7 @@ function App() {
   return (
     <>
     <div className='h-screen w-[100%] bg-[#283D4F] flex justify-center'>
-      <div className="bg-white w-[400px] h-fit p-5 mt-10 pt-14 flex flex-col items-center">
+      <div className="bg-white w-[100%] mx-10 md:mx-0 md:w-[400px] h-fit p-5 mt-10 pt-14 flex flex-col items-center">
         <DisplayContent time={time}></DisplayContent>
         <Btns start={start} stop={stop} reset={reset} status={status}></Btns>
       </div>
