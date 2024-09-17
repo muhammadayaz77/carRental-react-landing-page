@@ -3,7 +3,7 @@ import React from 'react'
 function BookACar() {
   return (
     <>
-    <div className='w-[100%] shadow-xl border-2 bg-white my-14'> 
+    <div className='w-[100%] shadow-xl border-2 my-14' id='bookACar' > 
       <div className='w-[95%] mx-auto grid grid-cols-12 gap-y-7 gap-6 py-10'>
           <div className='col-span-12'>
             <h2 className='font-extrabold text-3xl'>Book a car</h2>
@@ -60,7 +60,7 @@ function BookACar() {
   </input>
 </form>
           </div>
-          <div className='lg:col-span-4 col-span-12 md:col-span-6 mt-16 relative'>
+          <div className='lg:col-span-4 col-span-12 md:col-span-6 mt-16 md:mt-0 relative'>
   <button id="countries" class="bg-[#FF4C30] text-[17px] block w-full p-[17px] dark:border-gray-600 text-white dark:focus:ring-blue-500 font-semibold text-lg mt-auto absolute bottom-0 shadow-md shadow-[#FF4C30] registerBtn">
     Search
   </button>
