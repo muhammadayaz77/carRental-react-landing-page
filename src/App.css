@@ -26,15 +26,14 @@
   /* box-shadow:  12px 10px 5px  ; */
 }
 .hero-bg{
-  background: url('./public/Images/hero-bg.png') no-repeat;
+  background: url('./public/Images/hero-bg.png') no-repeat center center;
   background-position: right center;
-  min-height: 100vh;
+  max-height: 130vh;
 }
 
 @media screen and (max-width : 1021px) {
   .hero-bg{
     background: white;
-    min-height: 100vh;
   }
 }
 #bookACar{
