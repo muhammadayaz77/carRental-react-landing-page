@@ -3,7 +3,7 @@ import React from 'react'
 function Quick() {
   return (
     <>
-    <div className='mt-20'>
+    <div className='my-20'>
       <div className='text-center'>
         <p className='para'>Plan your trip now</p>
         <h2 className='h2'>Quick & easy car rental</h2>

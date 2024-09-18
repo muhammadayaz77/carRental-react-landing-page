@@ -5,6 +5,7 @@ import BookACar from '../../components/BookACar'
 import Quick from '../../components/Quick'
 import BackToTop from '../../components/BackToTop'
 import Banner from '../../components/Banner'
+import ChooseUs from '../../components/ChooseUs'
 function Home() {
   return (
     <div className="hero-bg">
@@ -16,6 +17,7 @@ function Home() {
       <Quick></Quick>
     </div>
       <Banner></Banner>
+      <ChooseUs />
     </div>
   )
 }

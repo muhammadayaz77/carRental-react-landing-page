@@ -39,3 +39,7 @@
 #bookACar{
   background: url('./public/Images/book-bg.png') no-repeat center center/cover;
 }
+#chooseUs{
+  background: url('./public/Images/bg.png') no-repeat left center;
+  /* background-position: center center; */
+}
