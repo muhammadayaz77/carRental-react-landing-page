@@ -41,5 +41,7 @@
 }
 #chooseUs{
   background: url('./public/Images/bg.png') no-repeat left center;
+  min-height: 100px;
+  padding-bottom: 100px;
   /* background-position: center center; */
 }

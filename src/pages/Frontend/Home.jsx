@@ -6,6 +6,7 @@ import Quick from '../../components/Quick'
 import BackToTop from '../../components/BackToTop'
 import Banner from '../../components/Banner'
 import ChooseUs from '../../components/ChooseUs'
+import Testimonial from '../../components/Testimonial'
 function Home() {
   return (
     <div className="hero-bg">
@@ -18,6 +19,7 @@ function Home() {
     </div>
       <Banner></Banner>
       <ChooseUs />
+      <Testimonial />
     </div>
   )
 }
