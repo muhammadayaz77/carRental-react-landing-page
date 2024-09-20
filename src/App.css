@@ -45,3 +45,9 @@
   padding-bottom: 100px;
   /* background-position: center center; */
 }
+#faq{
+  background: url('./public/Images/car.png') no-repeat center left;
+}
+#download{
+  background: url('./public/Images/bg02.png') no-repeat center left;
+}
