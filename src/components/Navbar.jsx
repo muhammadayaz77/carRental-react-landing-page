@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ImCross } from "react-icons/im";
 import { RiMenu3Fill } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 function Navbar() {
   let [isMenuOpen,setIsMenuOpen] = useState(false);
   return (
@@ -10,10 +11,12 @@ function Navbar() {
           <img src="./public/logo.png" className='w-40 hover:scale-105 transition-all' alt="tailwind-css" />
         </a>
         <ul className='hidden xl:flex text-base font-semibold space-x-4'>
-          <li className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Home</li>
-          <li className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>About</li>
-          <li className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Contact</li>
-          <li className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Products</li>
+          <Link to='/' className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Home</Link>
+          <Link to='/about' className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>About</Link>
+          <Link to='/models' className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Vehicle Models</Link>
+          <Link to='/testimonials' className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Testimonials</Link>
+          <Link to='/team' className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Out Team</Link>
+          <Link to='/contact' className='hover:text-[#FF4C30] rounded-md transition-all cursor-pointer pl-3'>Contact</Link>
         </ul>
         <div className='relative hidden xl:flex justify-center items-center gap-3'>
          <button className='font-semibold hover:text-[#FF4C30] transition-all'>Sign in</button>

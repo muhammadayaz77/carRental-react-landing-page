@@ -1,11 +1,11 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import Home from './Frontend/Home'
+import Frontend from './Frontend'
 function Index() {
   return (
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/*' element={<Frontend />} />
     </Routes>
     </BrowserRouter>
     </>
