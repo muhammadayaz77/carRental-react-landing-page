@@ -55,3 +55,16 @@
 #bookBanner{
   background: url('./public/Images/book-banner.png');
 }
+#heros-bg{
+  position: relative;
+  height: 70vh;
+}
+#heros-bg::before{
+  background: url('./public/Images/heroes-bg.png') no-repeat center center/cover;
+  position: absolute;
+  content: '';
+  height: 70vh;
+  inset: 0;
+  z-index: -111;
+  opacity: 0.1;
+}
