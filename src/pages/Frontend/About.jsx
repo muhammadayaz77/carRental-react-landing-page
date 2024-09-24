@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import BookBanner from '../../components/BookBanner'
 import Quick from '../../components/Quick'
+import AboutCompany from '../../components/AboutCompany'
 function About() {
   return (
     <>
@@ -13,6 +14,7 @@ function About() {
     <h3 className='text-black font-semibold mt-4'>Home / About</h3>
     </div>
     </div>
+    <AboutCompany />
     <Quick></Quick>
     <BookBanner></BookBanner>
     <Footer></Footer>

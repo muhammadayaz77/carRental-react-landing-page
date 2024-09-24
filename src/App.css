@@ -68,3 +68,6 @@
   z-index: -111;
   opacity: 0.1;
 }
+#teamCard{
+  box-shadow: 0px 15px 10px #f6f6f6;
+}
