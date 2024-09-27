@@ -1,4 +1,4 @@
-![rent-icon](https://github.com/user-attachments/assets/6478a63d-34bf-4635-a6b0-d68df7c41278)
+![logo](https://github.com/user-attachments/assets/ab649943-26de-4049-8c5a-0015ac51a809)
 
 ---
 
