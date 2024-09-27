@@ -12,7 +12,8 @@ import Download from '../../components/Download'
 import Footer from '../../components/Footer'
 function Home() {
   return (
-    <div className="hero-bg">
+    <div className='relative'>
+    <div className="hero-bg absolute top-0 right-0">
       <BackToTop></BackToTop>
     <Navbar></Navbar>
     <div className="2xl:w-[65%] w-[95%] mx-auto">
@@ -26,6 +27,7 @@ function Home() {
       <Faq></Faq>
       <Download></Download>
       <Footer></Footer>
+    </div>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import BookBanner from '../../components/BookBanner'
+import ContactBg from '../../components/ContactBg'
 function Contact() {
   return (
     <>
@@ -12,6 +13,7 @@ function Contact() {
     <h3 className='text-black font-semibold mt-4'>Home / Contacts</h3>
     </div>
     </div>
+    <ContactBg />
     <BookBanner></BookBanner>
     <Footer></Footer>
     </>
