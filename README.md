@@ -22,7 +22,7 @@ A dynamic car rental web application built with **React** and **Tailwind CSS**. 
 
 ## 🖥️ Demo
 
-Check out the live demo of the app [here](#).
+Check out the live demo of the app [here](https://car-rental-pcexwfwvp-devrahuls.vercel.app/).
 
 
 ## 🛠️ Setup & Installation
@@ -50,8 +50,6 @@ npm install
 ```bash
 npm start
 ```
-
-Your application will be running at `http://localhost:3000`.
 
 ## 📁 Project Structure
 
