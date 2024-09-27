@@ -1,4 +1,4 @@
-Here's a sample GitHub README for a car rental project using React, Tailwind CSS, and dynamic routing, with instructions to clone the repo:
+![rent-icon](https://github.com/user-attachments/assets/6478a63d-34bf-4635-a6b0-d68df7c41278)
 
 ---
 
@@ -24,11 +24,6 @@ A dynamic car rental web application built with **React** and **Tailwind CSS**. 
 
 Check out the live demo of the app [here](#).
 
-## 📸 Screenshots
-
-| Car Listings | Booking Page |
-|--------------|--------------|
-| ![Car Listings](#) | ![Booking Page](#) |
 
 ## 🛠️ Setup & Installation
 
@@ -76,8 +71,8 @@ car-rental/
 ## 🔄 Dynamic Routing
 
 - `/`: Homepage with available car listings.
-- `/cars/:carId`: View details of a specific car.
-- `/bookings`: Manage your bookings.
+- `/models`: View details of a specific car.
+- `/testimonials`: View details of users.
 
 ## 📝 License
 
@@ -85,4 +80,3 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to update links, descriptions, and details as per your project's needs!
